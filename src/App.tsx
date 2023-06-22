@@ -7,9 +7,9 @@ import HeroImg from './assets/hero.jpg';
 export default function App() {
   return (
     <div
-      className="min-h-screen flex flex-col bg-teal-500 text-white"
+      className="min-h-screen flex flex-col text-white"
       style={{
-        background: `url(${HeroImg}) no-repeat center/cover`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${HeroImg}) no-repeat center/cover`,
       }}
     >
       <Header />
